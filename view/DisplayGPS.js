@@ -11,7 +11,7 @@
         	getLocation();
 //        	showPosition();
 			
-		}, 2000);
+		}, 200);
        
         // Disable mouse right click by returning false. Context menu isn't displayed
         canvas.oncontextmenu = function () {
