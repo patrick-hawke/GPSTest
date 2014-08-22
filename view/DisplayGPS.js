@@ -11,7 +11,7 @@
         	getLocation();
 //        	showPosition();
 			
-		}, 200);
+		}, 500);
        
         // Disable mouse right click by returning false. Context menu isn't displayed
         canvas.oncontextmenu = function () {
@@ -29,7 +29,8 @@
 	// Present the location on the screen
 	 function showPosition(position) {
 	    x.innerHTML = "Latitude: " + position.coords.latitude + 
-	    "<br>Longitude: " + position.coords.longitude; 
+	    "<br>Longitude: " + position.coords.longitude;
+        return x.innerHTML;
 	 }
 	 
 	};
